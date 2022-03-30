@@ -1,4 +1,4 @@
-# whale-ui
+# wwh
 
 ## Project setup
 ```

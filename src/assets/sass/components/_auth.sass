@@ -1,0 +1,39 @@
+.auth-restore
+  font-size: .6rem
+  font-weight: 500
+  color: var(--color-link)
+  margin: 32px 0
+  & span
+    cursor: pointer
+
+.auth-button
+  width: 100%
+  font-size: .7rem
+  font-weight: 500
+  text-align: center
+  color: var(--color-white)
+  border: 1px solid transparent
+  cursor: pointer
+  padding: 12px 14px
+  margin-bottom: 66px
+  border-radius: 32px
+  background: var(--color-dark)
+  transition: all 400ms ease
+  &:hover
+    color: var(--color-dark)
+    border-color: var(--color-dark)
+    background: transparent
+  &:disabled
+    color: var(--color-dark-16)
+    cursor: not-allowed
+    background: var(--btn-disabled)
+    &:hover
+      border-color: transparent
+
+.auth-caption
+  font-size: .7rem
+  color: var(--color-dark)
+  & span
+    font-weight: 500
+    color: var(--color-link)
+    cursor: pointer

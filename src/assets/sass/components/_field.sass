@@ -1,0 +1,37 @@
+.app__field
+  position: relative
+  width: 100%
+  &__input
+    width: 100%
+    font-size: .8rem
+    line-height: 1.4
+    color: var(--color-dark-6)
+    border: 1px solid var(--color-dark-16)
+    text-overflow: ellipsis
+    appearance: none
+    box-shadow: none
+    resize: none
+    overflow-x: hidden
+    padding: 16px 54px 16px 20px
+    border-radius: 12px
+    transition: all 400ms ease
+    &:hover
+      border-color: var(--color-dark-4)
+    &:focus
+      outline: none
+      box-shadow: none
+      color: var(--color-dark)
+    &__warning
+      border-color: var(--border-warning)
+      background: var(--bg-warning)
+    &__error
+      border-color: var(--border-error)
+      background: var(--bg-error)
+  &__hint
+    position: absolute
+    top: calc(100% + 8px)
+    transition: all 400ms ease
+    & span
+      font-size: .6rem
+      line-height: .8rem
+      color: var(--color-dark-16)
